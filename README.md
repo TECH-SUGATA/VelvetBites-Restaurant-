@@ -1,122 +1,159 @@
-# 🍽️ VelvetBites – Premium Food Ordering Experience
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Premium+Food+Delivery+Platform;Fast+%7C+Modern+%7C+Delicious;Built+with+Love+%F0%9F%92%96&center=true&width=600&height=50">
-</p>
+```
+██╗   ██╗███████╗██╗     ██╗   ██╗███████╗████████╗██████╗ ██╗████████╗███████╗███████╗
+██║   ██║██╔════╝██║     ██║   ██║██╔════╝╚══██╔══╝██╔══██╗██║╚══██╔══╝██╔════╝██╔════╝
+██║   ██║█████╗  ██║     ██║   ██║█████╗     ██║   ██████╔╝██║   ██║   █████╗  ███████╗
+╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔══╝     ██║   ██╔══██╗██║   ██║   ██╔══╝  ╚════██║
+ ╚████╔╝ ███████╗███████╗╚██████╔╝███████╗   ██║   ██████╔╝██║   ██║   ███████╗███████║
+  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═════╝ ╚═╝   ╚═╝   ╚══════╝╚══════╝
+```
 
----
+### 🍽 Premium Food Delivery — Reimagined
 
-## 🚀 Live Demo
-
-🔗 **Website:https://tech-sugata.github.io/Resturent-web-/
-
----
-
-## ✨ About the Project
-
-**VelvetBites** is a premium food ordering web application designed to deliver a seamless and visually stunning user experience.
-It combines modern UI/UX with smooth animations and responsive design to create a real-world food delivery platform.
-
-> 🍔 *“Food that finds you.”*
+</div>
 
 ---
 
-## 🎯 Key Features
+## ✨ Overview
 
-* 🛒 Interactive food browsing & ordering experience
-* ⚡ Fast, responsive, and smooth animations
-* 🎨 Premium dark-themed UI design
-* 🔐 User authentication (Sign In / Sign Up UI)
-* 📊 Real-time stats (orders, delivery time, ratings)
-* 📱 Fully responsive across devices
-* 💫 Floating animated food elements for engaging UI
+**VelvetBites** is a premium, production-grade food delivery web application built entirely in a **single HTML file** — no Node.js, no React, no backend servers, and no databases to configure.
 
----
+It delivers a complete experience:
 
-## 🖼️ Preview
-
-<p align="center">
-  <img src="https://via.placeholder.com/900x500.png?text=VelvetBites+Preview" alt="VelvetBites Preview"/>
-</p>
+```
+Browse Menu → Add to Cart → Checkout → Place Order
+```
 
 ---
 
-## 🛠️ Tech Stack
+## 🗄 Database Architecture
 
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Design:** Modern UI/UX, Animations
-* **Deployment:** GitHub Pages
+VelvetBites uses a **custom async key-value database layer**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     VelvetBites DB                          │
+├──────────────────────┬──────────────────────────────────────┤
+│  Key                 │  Value                               │
+├──────────────────────┼──────────────────────────────────────┤
+│  vb:users            │  User[] — all registered accounts    │
+│  vb:session          │  { userId, at } — active session     │
+│  vb:cart:{userId}    │  CartItem[] — per-user cart          │
+│  vb:orders:{userId}  │  Order[] — per-user order history    │
+└──────────────────────┴──────────────────────────────────────┘
+```
 
 ---
 
-## 📊 Highlights
+## 📦 Data Models
 
-* 🚀 600+ Restaurants simulated
-* 📦 3M+ Happy Orders UI stats
-* ⏱️ 15 min average delivery concept
-* ⭐ 4.7+ App rating UI
+```ts
+interface Order {
+  id: "VB1234567";
+}
+```
+
+---
+
+## 🏗 Tech Stack
+
+```
+┌─────────────────────────────────────────────────────┐
+│                 VelvetBites Stack                   │
+├─────────────────────────────────────────────────────┤
+│  HTML5        → Structure                          │
+│  CSS3         → Styling & Animations               │
+│  JavaScript   → Logic & Interactions               │
+│  Google Fonts → Typography                         │
+│  Font Awesome → Icons                              │
+└─────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## 📁 Project Structure
 
 ```
-VelvetBites/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-│   ├── images/
-│   └── icons/
+velvetbites/
+│
+├── velvetbites-v2.html   ← Main Application (Single File)
 ```
 
 ---
 
-## ⚡ Getting Started
+## ⚡ Quick Start
+
+```
+open velvetbites-v2.html
+```
+
+Or run locally:
 
 ```bash
+python -m http.server 8080
+```
 
-# Clone the repository
+Then open:
 
-git clone https://github.com/your-username/VelvetBites.git
-
-# Open in browser
-
-cd VelvetBites
-open index.html
+```
+http://localhost:8080
 ```
 
 ---
 
-## 🌟 Future Enhancements
+## 📦 Deployment
 
-* 🍕 Real backend integration
-* 💳 Payment gateway integration
-* 📍 Live order tracking
-* 🤖 AI-based food recommendations
+Upload the file to:
 
----
+- GitHub Pages  
+- Netlify  
+- Vercel  
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and improve it.
-
----
-
-## 📬 Contact
-
-👨‍💻 **Sugata Nayak**
-🔗 GitHub: https://github.com/
-🔗 Portfolio: https://tech-sugata.github.io/Resturent-web/
+```
+velvetbites-v2.html → Deploy → Live 🚀
+```
 
 ---
 
-<p align="center">
-  💖 Built with passion & creativity  
-</p>
+## 🎨 Design Highlights
+
+- Aurora animated background 🌌  
+- Glassmorphism UI ✨  
+- Smooth animations ⚡  
+- Premium typography 🎯  
+- Fully responsive layout 📱  
 
 ---
 
-## ⭐ Show Your Support
+## 🔥 Features
 
-If you like this project, give it a ⭐ on GitHub!
+- 🔐 Authentication UI  
+- 🛒 Cart System  
+- 🍽 Menu Filtering  
+- 🎁 Promo Support  
+- 📦 Order Flow  
+
+---
+
+## 📜 License
+
+```
+MIT License
+
+Copyright (c) 2025 VelvetBites
+```
+
+---
+
+<div align="center">
+
+**Built with ❤️ and a lot of 🍕**
+
+🍔 Burgers · 🍕 Pizza · 🍣 Sushi · 🍝 Pasta · 🍨 Desserts · 🧋 Drinks  
+
+**Delivered to your door in 25–45 min**
+
+🍽 VelvetBites — v2.0.0
+
+</div>

@@ -1,25 +1,38 @@
 <div align="center">
 
-```
-██╗   ██╗███████╗██╗     ██╗   ██╗███████╗████████╗██████╗ ██╗████████╗███████╗███████╗
-██║   ██║██╔════╝██║     ██║   ██║██╔════╝╚══██╔══╝██╔══██╗██║╚══██╔══╝██╔════╝██╔════╝
-██║   ██║█████╗  ██║     ██║   ██║█████╗     ██║   ██████╔╝██║   ██║   █████╗  ███████╗
-╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔══╝     ██║   ██╔══██╗██║   ██║   ██╔══╝  ╚════██║
- ╚████╔╝ ███████╗███████╗╚██████╔╝███████╗   ██║   ██████╔╝██║   ██║   ███████╗███████║
-  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═════╝ ╚═╝   ╚═╝   ╚══════╝╚══════╝
-```
+# 🍽 VelvetBites  
+### ✨ Premium Food Delivery — Reimagined  
 
-### 🍽 Premium Food Delivery — Reimagined
+<br/>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Single File](https://img.shields.io/badge/Architecture-Single%20File-purple?style=for-the-badge)
+![No Backend](https://img.shields.io/badge/Backend-None-black?style=for-the-badge)
+
+<br/>
+
+🚀 **Live Demo**  
+👉 https://tech-sugata.github.io/VelvetBites-Restaurant-/
 
 </div>
+
+---
+
+## 🖼 Preview
+
+<p align="center">
+  <img src="preview.gif" width="900"/>
+</p>
+
+> ⚠️ Replace `preview.gif` with your actual file after uploading
 
 ---
 
 ## ✨ Overview
 
 **VelvetBites** is a premium, production-grade food delivery web application built entirely in a **single HTML file** — no Node.js, no React, no backend servers, and no databases to configure.
-
-It delivers a complete experience:
 
 ```
 Browse Menu → Add to Cart → Checkout → Place Order
@@ -28,8 +41,6 @@ Browse Menu → Add to Cart → Checkout → Place Order
 ---
 
 ## 🗄 Database Architecture
-
-VelvetBites uses a **custom async key-value database layer**
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -78,6 +89,7 @@ interface Order {
 velvetbites/
 │
 ├── velvetbites-v2.html   ← Main Application (Single File)
+├── preview.gif           ← App Preview (optional)
 ```
 
 ---
@@ -104,7 +116,7 @@ http://localhost:8080
 
 ## 📦 Deployment
 
-Upload the file to:
+Deploy easily on:
 
 - GitHub Pages  
 - Netlify  
@@ -118,11 +130,11 @@ velvetbites-v2.html → Deploy → Live 🚀
 
 ## 🎨 Design Highlights
 
-- Aurora animated background 🌌  
-- Glassmorphism UI ✨  
-- Smooth animations ⚡  
-- Premium typography 🎯  
-- Fully responsive layout 📱  
+- 🌌 Aurora animated background  
+- ✨ Glassmorphism UI  
+- ⚡ Smooth animations  
+- 🎯 Premium typography  
+- 📱 Fully responsive layout  
 
 ---
 
@@ -133,6 +145,15 @@ velvetbites-v2.html → Deploy → Live 🚀
 - 🍽 Menu Filtering  
 - 🎁 Promo Support  
 - 📦 Order Flow  
+
+---
+
+## 🗺 Roadmap
+
+- 💳 UPI / Payment integration  
+- 📦 Order tracking  
+- 👤 User profile system  
+- ☁ Backend integration  
 
 ---
 
@@ -148,12 +169,10 @@ Copyright (c) 2025 VelvetBites
 
 <div align="center">
 
-**Built with ❤️ and a lot of 🍕**
+✨ **VelvetBites — Luxury Delivered** ✨  
 
-🍔 Burgers · 🍕 Pizza · 🍣 Sushi · 🍝 Pasta · 🍨 Desserts · 🧋 Drinks  
+🍔 🍕 🍣 🍝 🍨 🧋  
 
-**Delivered to your door in 25–45 min**
-
-🍽 VelvetBites — v2.0.0
+⭐ Star this repo if you like it!
 
 </div>

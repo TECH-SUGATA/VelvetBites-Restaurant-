@@ -29,10 +29,12 @@
 <br/>
 
 ![VelvetBites Preview](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900&h=400&fit=crop&q=85)
-
+ 
 <br/>
 
 </div>
+
+Project Link --  https://tech-sugata.github.io/VelvetBites-Restaurant-/
 
 ---
 
